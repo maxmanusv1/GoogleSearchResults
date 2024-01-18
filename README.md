@@ -45,3 +45,6 @@ GetSearchResults(string Query, int maximumCount, int pageCount, string? proxy = 
     FluxBB,
     SMF
 
+# TODO
+    ADD Other search engines (Yandex, DuckDuckGo)
+    Multiple search with proxies
