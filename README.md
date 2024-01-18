@@ -5,27 +5,24 @@ With the specific settings you can get Backlinks too.
 
 ## Installation
 
-With the .NET Tool
-```bash 
-    dotnet tool install --global GoogleSearchResults --version 1.0.0
+```bash dotnet tool install --global GoogleSearchResults --version 1.0.0
 ```
 ## Usage
 GoogleSearchResult class contains target website URL and title.
 ```csharp 
-    using GoogleSearchResults;
-    using GoogleSearchResults.Google;
-    public async Task Main(string[] args)
-    {
-        List<GoogleSearchResult> searchResults = new List<GoogleSearchResult>();
-        var search = new GoogleSearch();
-        searchResults = await search.GetSearchResults("query",20,4,null,SearchOptions.Backlink, FocusedWebsites.Xenforo);
-        foreach(var item in searchResults){
+using GoogleSearchResults;
+using GoogleSearchResults.Google;
+public async Task Main(string[] args)
+{
+    List<GoogleSearchResult> searchResults = new List<GoogleSearchResult>();
+    var search = new GoogleSearch();
+    searchResults = await search.GetSearchResults("query",20,4,null,SearchOptions.Backlink, FocusedWebsites.Xenforo);
+    foreach(var item in searchResults){
             Console.WriteLine("Url:" + item.Url + "Title:" + item.Title);
-        }
-        Console.ReadKey();
     }
-```
-GetSearchResults() Method. Specify proxy null if you dont want to use.
+    Console.ReadKey();
+}
+```GetSearchResults() Method. Specify proxy null if you dont want to use.
 ```csharp
     GetSearchResults(string Query, int maximumCount, int pageCount, string? proxy = null, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
 ```
