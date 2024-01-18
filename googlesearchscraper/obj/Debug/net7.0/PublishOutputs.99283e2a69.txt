@@ -1,0 +1,4 @@
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\net7.0\publish\GoogleSearchResults.dll
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\net7.0\publish\GoogleSearchResults.deps.json
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\net7.0\publish\GoogleSearchResults.pdb
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\net7.0\publish\HtmlAgilityPack.dll

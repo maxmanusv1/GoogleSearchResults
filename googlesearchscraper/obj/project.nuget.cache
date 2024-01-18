@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "m5T6HOYGUrv/y/LHhUVpuQtDD3EjzXloz/sSg180u3szsW4BkLdIeP6JFZm8k+Ue9fL3cQ62UcCpGDy+MaH57A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KADIR\\source\\repos\\googlesearchscraper\\googlesearchscraper\\GoogleSearchResults.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KADIR\\.nuget\\packages\\htmlagilitypack\\1.11.57\\htmlagilitypack.1.11.57.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\net7.0\googlesearchscraper.deps.json
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\net7.0\googlesearchscraper.dll
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\net7.0\googlesearchscraper.pdb
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\net7.0\googlesearchscraper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\net7.0\googlesearchscraper.AssemblyInfoInputs.cache
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\net7.0\googlesearchscraper.AssemblyInfo.cs
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\net7.0\googlesearchscraper.csproj.CoreCompileInputs.cache
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\net7.0\googlesearchscraper.dll
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\net7.0\refint\googlesearchscraper.dll
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\net7.0\googlesearchscraper.pdb
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\net7.0\ref\googlesearchscraper.dll
