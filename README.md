@@ -1,6 +1,6 @@
 # Google Search Results Scraper
 
-Scraps google search results without api key. Only Google supported in this version: V1.0.0
+Scraps google search results without api key. Only Google supported in this version: V1.0.0 <br>
 With the specific settings you can get Backlinks too. 
 
 ## Installation
