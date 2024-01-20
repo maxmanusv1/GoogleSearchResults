@@ -11,14 +11,14 @@ namespace GoogleSearchResults.Google
         /// Get Google Search Results. 
         /// </summary>
         /// <param name="Query">Search Query</param>
-        /// <param name="proxy">Proxy to use, default is empty. E.G: IP:PORT </param>
+        /// <param name="ProxyOptions">Proxy to use, leave it null if you dont want to use. <see cref="ProxyOptions"/></param>
         /// <param name="maximumCount">Maximum number of return objects.</param>
         /// <param name="pageCount">Maximum number of pages to use.</param>
         /// <param name="searchOptions">Search options to use. <see cref="SearchOptions"/> to see options.</param>
         /// <param name="websites">Focus websites for extended search. <see cref="FocusedWebsites"/></param>
         /// <returns></returns>
         /// <exception cref="ArgumentNullException"></exception>
-        public async Task<List<GoogleSearchResult>> GetSearchResults(string Query, int maximumCount, int pageCount, string? proxy = null, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
+        public async Task<List<GoogleSearchResult>> GetSearchResults(string Query, int maximumCount, int pageCount, ProxyOptions? proxy, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
         {
             List<GoogleSearchResult> results = new List<GoogleSearchResult>();
 
@@ -28,13 +28,12 @@ namespace GoogleSearchResults.Google
             string endPoint = await BuildLink(replacedQuery,maximumCount, searchOptions, websites);
             try
             {
-                string proxyURL = "http://"+ proxy;
+                string proxyURL = proxy != null ? "http://"+ proxy.IP+":"+proxy.Port : string.Empty;
 
-                //var prxy = new WebProxy(proxyURL);
                 var httpclientHandler = new HttpClientHandler()
                 {
-                    Proxy = string.IsNullOrEmpty(proxy) ? null : new WebProxy(proxyURL),
-                    UseProxy = string.IsNullOrEmpty(proxy) ? false : true
+                    Proxy = proxy == null ? null : new WebProxy(proxyURL) { Credentials = new NetworkCredential(proxy.Username, proxy.Password) },
+                    UseProxy = proxy == null ? false : proxy.UseProxy
                 };
                 var httpClient = new HttpClient(httpclientHandler);
                 httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(DefaultUserAgent);
@@ -45,7 +44,7 @@ namespace GoogleSearchResults.Google
                     htmldoc.LoadHtml(response);
                     var nodes = htmldoc.DocumentNode.SelectNodes("//div[@class='yuRUbf']");
                     if (nodes == null)
-                        throw new Exception("Captcha error, try to use proxy.");
+                        throw new Exception("Probably captcha error, try to use proxy.");
                     foreach (var tag in nodes)
                     {
                         var resultObject = new GoogleSearchResult
@@ -65,7 +64,7 @@ namespace GoogleSearchResults.Google
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Source.ToString() +" url: " + endPoint);
+                throw new Exception(ex.Message + Environment.NewLine + ex.Source);
             }
         }
         private async Task<string> BuildLink(string query,int count, SearchOptions options, FocusedWebsites websites)

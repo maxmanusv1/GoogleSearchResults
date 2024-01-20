@@ -1,0 +1,5 @@
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.csproj.AssemblyReference.cache
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.AssemblyInfoInputs.cache
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.AssemblyInfo.cs
+C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.csproj.CoreCompileInputs.cache

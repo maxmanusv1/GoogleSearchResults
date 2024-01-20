@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>GoogleSearchResults</id>
+    <version>1.1.0</version>
+    <authors>GoogleSearchResults</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/maxmanusv1/GoogleSearchResults</projectUrl>
+    <description>Library to get Google Search results and grab some backlinks for related keywords. No Google API key needed, better use proxy after a little usage.</description>
+    <tags>google search, google results, search, google, google search results, google search scraper</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\DotnetToolSettings.xml" target="tools\net7.0\any\DotnetToolSettings.xml" />
+    <file src="C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\net7.0\publish\GoogleSearchResults.dll" target="tools\net7.0\any\GoogleSearchResults.dll" />
+    <file src="C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\net7.0\publish\GoogleSearchResults.deps.json" target="tools\net7.0\any\GoogleSearchResults.deps.json" />
+    <file src="C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\net7.0\publish\GoogleSearchResults.pdb" target="tools\net7.0\any\GoogleSearchResults.pdb" />
+    <file src="C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\net7.0\publish\HtmlAgilityPack.dll" target="tools\net7.0\any\HtmlAgilityPack.dll" />
+  </files>
+</package>
