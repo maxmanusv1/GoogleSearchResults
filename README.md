@@ -25,15 +25,15 @@ public async Task Main(string[] args)
 ```
 To use proxy: Use ProxyOptions class to specify your proxy and credentials.
 ```csharp
-    var proxyOptions = new ProxyOptions() { 
-        UseProxy = true,
-        IP = "IP",
-        Port = "PORT",
-        Username = "username",
-        Password = "password",
-    };
+var proxyOptions = new ProxyOptions() { 
+    UseProxy = true,
+    IP = "IP",
+    Port = "PORT",
+    Username = "username",
+    Password = "password",
+};
     // and use it in method.
-    Task GetSearchResults(string Query, int maximumCount, int pageCount, proxyOptions, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
+Task GetSearchResults(string Query, int maximumCount, int pageCount, proxyOptions, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
 
 ```
 GetSearchResults() Method. Specify proxy null if you dont want to use.
