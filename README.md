@@ -1,8 +1,7 @@
 # Google Search Results Scraper
 
-Scraps google search results without api key. Only Google supported in this version: V1.0.0 <br>
+Scraps google search results without api key. Only Google supported in this version: V1.1.0 <br>
 With the specific settings you can get Backlinks too. 
-
 ## Installation
 
 ```bash
@@ -24,9 +23,22 @@ public async Task Main(string[] args)
     Console.ReadKey();
 }
 ```
+To use proxy: Use ProxyOptions class to specify your proxy and credentials.
+```csharp
+    var proxyOptions = new ProxyOptions() { 
+        UseProxy = true,
+        IP = "IP",
+        Port = "PORT",
+        Username = "username",
+        Password = "password",
+    };
+    // and use it in method.
+    Task GetSearchResults(string Query, int maximumCount, int pageCount, proxyOptions, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
+
+```
 GetSearchResults() Method. Specify proxy null if you dont want to use.
 ```csharp
-GetSearchResults(string Query, int maximumCount, int pageCount, string? proxy = null, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
+Task GetSearchResults(string Query, int maximumCount, int pageCount, ProxyOptions proxy = null, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
 ```
 ### SearchOptions
     Normal : Gets all results pointed to specifed query,
