@@ -40,7 +40,7 @@ GetSearchResults() Method. Specify proxy null if you dont want to use.
 ```csharp
 public async Task GetSearchResults(string Query, int maximumCount, int pageCount, ProxyOptions proxy = null, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
 ```
-### SearchOptions
+## SearchOptions
     Normal : Gets all results pointed to specifed query,
     Forum : Returns forum websites with query word you provided,
     Backlink : It points to related web sites & forums to scrap results,
