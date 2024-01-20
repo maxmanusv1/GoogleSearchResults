@@ -33,12 +33,12 @@ var proxyOptions = new ProxyOptions() {
     Password = "password",
 };
     // and use it in method.
-Task GetSearchResults(string Query, int maximumCount, int pageCount, proxyOptions, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
+await GetSearchResults(string Query, int maximumCount, int pageCount, proxyOptions, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any);
 
 ```
 GetSearchResults() Method. Specify proxy null if you dont want to use.
 ```csharp
-Task GetSearchResults(string Query, int maximumCount, int pageCount, ProxyOptions proxy = null, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
+public async Task GetSearchResults(string Query, int maximumCount, int pageCount, ProxyOptions proxy = null, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
 ```
 ### SearchOptions
     Normal : Gets all results pointed to specifed query,
