@@ -60,3 +60,4 @@ public async Task GetSearchResults(string Query, int maximumCount, int pageCount
 # TODO
     ADD Other search engines (Yandex, DuckDuckGo)
     Multiple search with proxies
+    .NET Core & .NET Framework implementation
