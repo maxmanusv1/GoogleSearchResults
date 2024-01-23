@@ -6,11 +6,11 @@ With the specific settings you can get Backlinks too.
 
 .NET CLI
 ```bash
-dotnet tool install --global GoogleSearchResults --version 1.2.0
+dotnet tool install --global GoogleSearchResults --version 1.2.1
 ```
 Package Manager 
 ```bash
-NuGet\Install-Package GoogleSearchResults -Version 1.2.0
+NuGet\Install-Package GoogleSearchResults -Version 1.2.1
 ```
 ## Usage
 GoogleSearchResult class contains target website URL and title.
@@ -65,4 +65,3 @@ public async Task GetSearchResults(string Query, int maximumCount, int pageCount
 # TODO
     ADD Other search engines (Yandex, DuckDuckGo)
     Multiple search with proxies
-    .NET Core & .NET Framework implementation
