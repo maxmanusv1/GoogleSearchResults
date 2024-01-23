@@ -1,5 +1,11 @@
 ﻿using HtmlAgilityPack;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net;
+using System.Net.Http;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace GoogleSearchResults.Google
 {
@@ -25,10 +31,10 @@ namespace GoogleSearchResults.Google
             if (string.IsNullOrWhiteSpace(Query))
                 throw new ArgumentNullException();
             string replacedQuery = Query.Replace(" ", "+");
-            string endPoint = await BuildLink(replacedQuery,maximumCount, searchOptions, websites);
+            string endPoint = await BuildLink(replacedQuery, maximumCount, searchOptions, websites);
             try
             {
-                string proxyURL = proxy != null ? "http://"+ proxy.IP+":"+proxy.Port : string.Empty;
+                string proxyURL = proxy != null ? "http://" + proxy.IP + ":" + proxy.Port : string.Empty;
 
                 var httpclientHandler = new HttpClientHandler()
                 {

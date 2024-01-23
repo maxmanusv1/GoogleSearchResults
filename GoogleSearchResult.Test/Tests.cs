@@ -1,5 +1,5 @@
-using GoogleSearchResults;
 using GoogleSearchResults.Google;
+using GoogleSearchResults;
 namespace GoogleSearchResult.Test
 {
     [TestClass]
@@ -8,7 +8,8 @@ namespace GoogleSearchResult.Test
         [TestMethod]
         public async Task GoogleSearchWithProxy_ShouldReturnResults()
         {
-            var proxyOptions = new ProxyOptions() { 
+            var proxyOptions = new ProxyOptions()
+            {
                 UseProxy = true,
                 IP = "IP",
                 Port = "PORT",
@@ -17,7 +18,7 @@ namespace GoogleSearchResult.Test
             };
             List<GoogleSearchResults.Google.GoogleSearchResult> searchResults = new List<GoogleSearchResults.Google.GoogleSearchResult>();
             var search = new GoogleSearch();
-            searchResults = await search.GetSearchResults("betta fish",20,4,proxyOptions ,SearchOptions.Backlink,FocusedWebsites.Xenforo);
+            searchResults = await search.GetSearchResults("betta fish", 20, 4, proxyOptions, SearchOptions.Backlink, FocusedWebsites.Xenforo);
             foreach (var item in searchResults)
             {
                 Console.WriteLine("Url:" + item.Url + "Title:" + item.Title);

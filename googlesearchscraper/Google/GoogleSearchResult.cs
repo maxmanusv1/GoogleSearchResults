@@ -7,7 +7,7 @@ namespace GoogleSearchResults.Google
     /// </summary>
     public class GoogleSearchResult 
     {
-        public required string Url { get; set; }
-        public required string Title { get; set; }
+        public string Url { get; set; }
+        public string Title { get; set; }
     }
 }
