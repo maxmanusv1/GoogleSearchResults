@@ -15,11 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Library to get Google Search results and grab some backlinks for related keywords" +
     ". No Google API key needed, better use proxy after a little usage.")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.1")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoogleSearchResults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoogleSearchResults")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.2.1.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
 

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>GoogleSearchResults</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <authors>GoogleSearchResults</authors>
     <license type="expression">MIT</license>
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
