@@ -1,11 +1,16 @@
 # Google Search Results Scraper
 
-Scraps google search results without api key. Only Google supported in this version: V1.1.0 <br>
+Scraps google search results without api key. Only Google supported in this version: V1.2.0 <br>
 With the specific settings you can get Backlinks too. 
 ## Installation
 
+.NET CLI
 ```bash
-dotnet tool install --global GoogleSearchResults --version 1.0.0
+dotnet tool install --global GoogleSearchResults --version 1.2.0
+```
+Package Manager 
+```bash
+NuGet\Install-Package GoogleSearchResults -Version 1.2.0
 ```
 ## Usage
 GoogleSearchResult class contains target website URL and title.
