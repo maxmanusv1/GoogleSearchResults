@@ -2,7 +2,6 @@
 
 In V1.3.0, this tool can scrape Google search results without requiring an API key. Only Google is supported in this version. Additionally, with specific settings, you can retrieve backlinks. <br> Furthermore, with the V1.3.0 update, it's possible to scrape a website's Domain Authority (DA), Page Authority (PA), and IP address.
 ## Installation
-```
 Package Manager 
 ```bash
 NuGet\Install-Package GoogleSearchResults -Version 1.2.1
