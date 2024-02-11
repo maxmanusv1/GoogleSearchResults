@@ -1,12 +1,7 @@
 # Google Search Results Scraper
 
-Scraps google search results without api key. Only Google supported in this version: V1.2.1 <br>
-With the specific settings you can get Backlinks too. 
+In V1.3.0, this tool can scrape Google search results without requiring an API key. Only Google is supported in this version. Additionally, with specific settings, you can retrieve backlinks. <br> Furthermore, with the V1.3.0 update, it's possible to scrape a website's Domain Authority (DA), Page Authority (PA), and IP address.
 ## Installation
-
-.NET CLI
-```bash
-dotnet tool install --global GoogleSearchResults --version 1.2.1
 ```
 Package Manager 
 ```bash
@@ -61,6 +56,26 @@ public async Task GetSearchResults(string Query, int maximumCount, int pageCount
     vBulletin,
     FluxBB,
     SMF
+
+## Usage of DA/PA Checker
+To check websites DA/PA and IP address use CheckAsync() method.
+```csharp
+public async Task<List<CheckerResults>> CheckAsync(List<GoogleSearchResult> searchResults, ProxyOptions? proxy = null)
+```
+```csharp
+List<GoogleSearchResults.Google.GoogleSearchResult> searchResults = new List<GoogleSearchResults.Google.GoogleSearchResult>();
+List<GoogleSearchResults.Checker.CheckerResults> results = new List<CheckerResults>();
+var search = new GoogleSearch();
+searchResults = await search.GetSearchResults("betta fish", 20, 4, null, SearchOptions.Backlink, FocusedWebsites.Xenforo);
+Checker checker = new Checker();
+results = await checker.CheckAsync(searchResults);
+foreach (var item in results)
+{
+    Console.WriteLine($"URL: {item.URL}  Title: {item.Title} DA: {item.DA} PA: {item.PA} Spam Score: {item.SpamScore} IP: {item.IP}");
+}
+
+```
+
 
 # TODO
     ADD Other search engines (Yandex, DuckDuckGo)
