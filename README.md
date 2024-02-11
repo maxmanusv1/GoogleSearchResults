@@ -4,7 +4,7 @@ In V1.3.0, this tool can scrape Google search results without requiring an API k
 ## Installation
 Package Manager 
 ```bash
-NuGet\Install-Package GoogleSearchResults -Version 1.2.1
+NuGet\Install-Package GoogleSearchResults -Version 1.3.0
 ```
 ## Usage
 GoogleSearchResult class contains target website URL and title.
