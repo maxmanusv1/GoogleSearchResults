@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoogleSearchResult.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76909c5e545f5de680ffba8b9b5c14ee05299f8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoogleSearchResult.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoogleSearchResult.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

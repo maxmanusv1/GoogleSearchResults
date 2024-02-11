@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "GoogleSearchResult.Test/1.0.0": {
         "dependencies": {
-          "GoogleSearchResults": "1.2.0",
+          "GoogleSearchResults": "1.2.1",
           "MSTest.TestAdapter": "2.2.10",
           "MSTest.TestFramework": "2.2.10",
           "Microsoft.NET.Test.Sdk": "17.5.0",
@@ -439,7 +439,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "GoogleSearchResults/1.2.0": {
+      "GoogleSearchResults/1.2.1": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.57"
         },
@@ -659,7 +659,7 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
-    "GoogleSearchResults/1.2.0": {
+    "GoogleSearchResults/1.2.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

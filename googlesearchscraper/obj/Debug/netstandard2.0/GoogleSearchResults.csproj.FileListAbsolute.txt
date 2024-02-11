@@ -8,3 +8,14 @@ C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\ne
 C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\netstandard2.0\GoogleSearchResults.pdb
 C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.dll
 C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.pdb
+C:\Users\KADIR\Documents\GitHub\GoogleSearchResults\googlesearchscraper\bin\Debug\netstandard2.0\GoogleSearchResults.deps.json
+C:\Users\KADIR\Documents\GitHub\GoogleSearchResults\googlesearchscraper\bin\Debug\netstandard2.0\GoogleSearchResults.dll
+C:\Users\KADIR\Documents\GitHub\GoogleSearchResults\googlesearchscraper\bin\Debug\netstandard2.0\GoogleSearchResults.pdb
+C:\Users\KADIR\Documents\GitHub\GoogleSearchResults\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.csproj.AssemblyReference.cache
+C:\Users\KADIR\Documents\GitHub\GoogleSearchResults\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KADIR\Documents\GitHub\GoogleSearchResults\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.AssemblyInfoInputs.cache
+C:\Users\KADIR\Documents\GitHub\GoogleSearchResults\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.AssemblyInfo.cs
+C:\Users\KADIR\Documents\GitHub\GoogleSearchResults\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.csproj.CoreCompileInputs.cache
+C:\Users\KADIR\Documents\GitHub\GoogleSearchResults\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.sourcelink.json
+C:\Users\KADIR\Documents\GitHub\GoogleSearchResults\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.dll
+C:\Users\KADIR\Documents\GitHub\GoogleSearchResults\googlesearchscraper\obj\Debug\netstandard2.0\GoogleSearchResults.pdb

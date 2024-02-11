@@ -5,9 +5,9 @@ namespace GoogleSearchResults.Google
     /// <summary>
     /// Search results from Google.
     /// </summary>
-    public class GoogleSearchResult 
+    public class GoogleSearchResult : ISearchResult
     {
-        public string Url { get; set; }
+        public string URL { get; set; }
         public string Title { get; set; }
     }
 }

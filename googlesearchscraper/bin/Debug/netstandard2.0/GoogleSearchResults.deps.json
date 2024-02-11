@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "GoogleSearchResults/1.2.1": {
+      "GoogleSearchResults/1.3.0": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.57",
           "NETStandard.Library": "2.0.3"
@@ -33,7 +33,7 @@
     }
   },
   "libraries": {
-    "GoogleSearchResults/1.2.1": {
+    "GoogleSearchResults/1.3.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KADIR\\source\\repos\\googlesearchscraper\\googlesearchscraper\\GoogleSearchResults.csproj": {}
+    "C:\\Users\\KADIR\\Documents\\GitHub\\GoogleSearchResults\\googlesearchscraper\\GoogleSearchResults.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KADIR\\source\\repos\\googlesearchscraper\\googlesearchscraper\\GoogleSearchResults.csproj": {
-      "version": "1.2.1",
+    "C:\\Users\\KADIR\\Documents\\GitHub\\GoogleSearchResults\\googlesearchscraper\\GoogleSearchResults.csproj": {
+      "version": "1.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KADIR\\source\\repos\\googlesearchscraper\\googlesearchscraper\\GoogleSearchResults.csproj",
+        "projectUniqueName": "C:\\Users\\KADIR\\Documents\\GitHub\\GoogleSearchResults\\googlesearchscraper\\GoogleSearchResults.csproj",
         "projectName": "GoogleSearchResults",
-        "projectPath": "C:\\Users\\KADIR\\source\\repos\\googlesearchscraper\\googlesearchscraper\\GoogleSearchResults.csproj",
+        "projectPath": "C:\\Users\\KADIR\\Documents\\GitHub\\GoogleSearchResults\\googlesearchscraper\\GoogleSearchResults.csproj",
         "packagesPath": "C:\\Users\\KADIR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KADIR\\source\\repos\\googlesearchscraper\\googlesearchscraper\\obj\\",
+        "outputPath": "C:\\Users\\KADIR\\Documents\\GitHub\\GoogleSearchResults\\googlesearchscraper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Microsoft Visual Studio\\Shared\\NuGetPackages"

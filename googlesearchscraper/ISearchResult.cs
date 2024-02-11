@@ -10,10 +10,10 @@ namespace GoogleSearchResults
         /// <summary>
         /// Gets URL of the site.
         /// </summary>
-        string url { get; }
+        string URL { get; set; }
         /// <summary>
         ///  Gets title of the content.
         /// </summary>
-        string title { get; }
+        string Title { get; set; }
     }
 }

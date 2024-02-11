@@ -1,6 +1,4 @@
-﻿using GoogleSearchResults;
-
-namespace GoogleSearchResults
+﻿namespace GoogleSearchResults.Google
 {
     public enum SearchOptions
     {

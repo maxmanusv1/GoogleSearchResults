@@ -24,7 +24,7 @@ namespace GoogleSearchResults.Google
         /// <param name="websites">Focus websites for extended search. <see cref="FocusedWebsites"/></param>
         /// <returns></returns>
         /// <exception cref="ArgumentNullException"></exception>
-        public async Task<List<GoogleSearchResult>> GetSearchResults(string Query, int maximumCount, int pageCount, ProxyOptions? proxy, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
+        public async Task<List<GoogleSearchResult>> GetSearchResults(string Query, int maximumCount, int pageCount, ProxyOptions? proxy = null, SearchOptions searchOptions = SearchOptions.Normal, FocusedWebsites websites = FocusedWebsites.Any)
         {
             List<GoogleSearchResult> results = new List<GoogleSearchResult>();
 
@@ -55,7 +55,7 @@ namespace GoogleSearchResults.Google
                     {
                         var resultObject = new GoogleSearchResult
                         {
-                            Url = tag.Descendants("a").FirstOrDefault()?.Attributes["href"]?.Value,
+                            URL = tag.Descendants("a").FirstOrDefault()?.Attributes["href"]?.Value,
                             Title = tag.Descendants("h3").FirstOrDefault()?.InnerText
 
                         };

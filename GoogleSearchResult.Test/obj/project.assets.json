@@ -612,7 +612,7 @@
           }
         }
       },
-      "GoogleSearchResults/1.2.1": {
+      "GoogleSearchResults/1.3.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2367,7 +2367,7 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "GoogleSearchResults/1.2.1": {
+    "GoogleSearchResults/1.3.0": {
       "type": "project",
       "path": "../googlesearchscraper/GoogleSearchResults.csproj",
       "msbuildProject": "../googlesearchscraper/GoogleSearchResults.csproj"
@@ -2375,7 +2375,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "GoogleSearchResults >= 1.2.1",
+      "GoogleSearchResults >= 1.3.0",
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
@@ -2389,11 +2389,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KADIR\\source\\repos\\googlesearchscraper\\GoogleSearchResult.Test\\GoogleSearchResult.Test.csproj",
+      "projectUniqueName": "C:\\Users\\KADIR\\Documents\\GitHub\\GoogleSearchResults\\GoogleSearchResult.Test\\GoogleSearchResult.Test.csproj",
       "projectName": "GoogleSearchResult.Test",
-      "projectPath": "C:\\Users\\KADIR\\source\\repos\\googlesearchscraper\\GoogleSearchResult.Test\\GoogleSearchResult.Test.csproj",
+      "projectPath": "C:\\Users\\KADIR\\Documents\\GitHub\\GoogleSearchResults\\GoogleSearchResult.Test\\GoogleSearchResult.Test.csproj",
       "packagesPath": "C:\\Users\\KADIR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KADIR\\source\\repos\\googlesearchscraper\\GoogleSearchResult.Test\\obj\\",
+      "outputPath": "C:\\Users\\KADIR\\Documents\\GitHub\\GoogleSearchResults\\GoogleSearchResult.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "F:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2415,8 +2415,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\KADIR\\source\\repos\\googlesearchscraper\\googlesearchscraper\\GoogleSearchResults.csproj": {
-              "projectPath": "C:\\Users\\KADIR\\source\\repos\\googlesearchscraper\\googlesearchscraper\\GoogleSearchResults.csproj"
+            "C:\\Users\\KADIR\\Documents\\GitHub\\GoogleSearchResults\\googlesearchscraper\\GoogleSearchResults.csproj": {
+              "projectPath": "C:\\Users\\KADIR\\Documents\\GitHub\\GoogleSearchResults\\googlesearchscraper\\GoogleSearchResults.csproj"
             }
           }
         }

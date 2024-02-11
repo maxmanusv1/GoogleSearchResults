@@ -9,7 +9,7 @@
     <projectUrl>https://github.com/maxmanusv1/GoogleSearchResults</projectUrl>
     <description>Library to get Google Search results and grab some backlinks for related keywords. No Google API key needed, better use proxy after a little usage.</description>
     <tags>google search, google results, search, google, google search results, google search scraper</tags>
-    <repository type="git" />
+    <repository type="git" commit="76909c5e545f5de680ffba8b9b5c14ee05299f8d" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="HtmlAgilityPack" version="1.11.57" exclude="Build,Analyzers" />
@@ -17,6 +17,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\KADIR\source\repos\googlesearchscraper\googlesearchscraper\bin\Debug\netstandard2.0\GoogleSearchResults.dll" target="lib\netstandard2.0\GoogleSearchResults.dll" />
+    <file src="C:\Users\KADIR\Documents\GitHub\GoogleSearchResults\googlesearchscraper\bin\Debug\netstandard2.0\GoogleSearchResults.dll" target="lib\netstandard2.0\GoogleSearchResults.dll" />
   </files>
 </package>

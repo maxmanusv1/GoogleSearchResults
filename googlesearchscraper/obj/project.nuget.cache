@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/wl2GPFGyt7X4AgGY5VGMLbpBTualK2pLjxK8ctTlbyiRukAzVBs5UDsUZ29VL3CzACbOw4/FdLv7eiEjIbtPg==",
+  "dgSpecHash": "43pFXaHe43v1gwNfUqDJVDLy+GlbBdd+vizY8pETsITGjR9/OBcJNVaqk5Rtt0Aw2NXYV/uZqFU8gE5atkUgvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KADIR\\source\\repos\\googlesearchscraper\\googlesearchscraper\\GoogleSearchResults.csproj",
+  "projectFilePath": "C:\\Users\\KADIR\\Documents\\GitHub\\GoogleSearchResults\\googlesearchscraper\\GoogleSearchResults.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KADIR\\.nuget\\packages\\htmlagilitypack\\1.11.57\\htmlagilitypack.1.11.57.nupkg.sha512",
     "C:\\Users\\KADIR\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
